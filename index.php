@@ -7,13 +7,7 @@
 	<title>Test Page</title>
 </head>
 <body>
-<section>
-	<div class="ctoa_container">
-			<h1>I am the title</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-		<a href="#" title="I am a link">I am a link</a>
-	</div>
-</section>
+		<?php include_once("blocks/call_to_action.php");?>
 </body>
 </html>
 	

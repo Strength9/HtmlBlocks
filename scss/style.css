@@ -2,11 +2,14 @@
   box-sizing: border-box;
 }
 
-section {
-  background-color: red;
+section.calltoaction {
   padding: 100px 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darkblue;
 }
-section .ctoa_container {
+section.calltoaction .ctoa_container {
   margin: 0 auto;
   width: 100%;
   max-width: 500px;
@@ -19,13 +22,13 @@ section .ctoa_container {
   color: #FFF;
   text-align: center;
 }
-section .ctoa_container h1 {
+section.calltoaction .ctoa_container h1 {
   margin: 0;
 }
-section .ctoa_container p {
+section.calltoaction .ctoa_container p {
   margin: 0;
 }
-section .ctoa_container a {
+section.calltoaction .ctoa_container a {
   margin: 0;
   display: inline-block;
   border: 1px solid #FFF;
@@ -34,6 +37,9 @@ section .ctoa_container a {
   transition: all 1s;
   color: inherit;
 }
-section .ctoa_container a:hover {
+section.calltoaction .ctoa_container a:hover {
   background-color: #000;
+}
+section.calltoaction .ctoa_container h1, section.calltoaction .ctoa_container p {
+  margin-bottom: 20px;
 }

@@ -1,6 +1,11 @@
-section {
-  background-color: red;
+section.calltoaction {
+
   padding:100px 20px;
+  
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color: darkblue;
   
       .ctoa_container {
         margin:0 auto;
@@ -15,6 +20,8 @@ section {
               
               color:#FFF;
               text-align: center;
+              
+              
               
                 h1 {
                   margin:0;
@@ -34,6 +41,10 @@ section {
                     &:hover {
                       background-color:#000;
                     }
+                }
+                
+                h1,p {
+                      margin-bottom:20px;
                 }
                 
       }
