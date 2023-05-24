@@ -1,3 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
 section {
-  background-color: green;
+  background-color: red;
+  padding: 100px 20px;
+}
+section .ctoa_container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #FFF;
+  text-align: center;
+}
+section .ctoa_container h1 {
+  margin: 0;
+}
+section .ctoa_container p {
+  margin: 0;
+}
+section .ctoa_container a {
+  margin: 0;
+  display: inline-block;
+  border: 1px solid #FFF;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition: all 1s;
+  color: inherit;
+}
+section .ctoa_container a:hover {
+  background-color: #000;
 }

@@ -1,0 +1,8 @@
+{
+  "clips" : [
+    {
+      "content" : "  display: flex;\n  flex-direction: row;\n  flex-wrap: nowrap;\n  justify-content: normal;\n  align-items: normal;\n  align-content: normal;",
+      "name" : "Flex"
+    }
+  ]
+}
