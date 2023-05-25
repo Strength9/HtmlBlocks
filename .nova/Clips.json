@@ -7,6 +7,10 @@
     {
       "content" : "  background-position:center center;\n  background-repeat:no-repeat;\n  background-size:cover;\n  background-color: darkblue;",
       "name" : "Background Positions"
+    },
+    {
+      "content" : "box-shadow: rgba(0,0,0,0.6) 0 0 0 1000px inset;",
+      "name" : "Overlay"
     }
   ]
 }

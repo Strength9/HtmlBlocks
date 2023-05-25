@@ -1,0 +1,23 @@
+.temp_button {
+	
+	margin:100px;
+	
+	.btn {
+	  font-family: Arial;
+	  border-radius: 0px;
+	  color: #1f628d;
+	  font-size: 16px;
+	  padding: 12px 25px 12px 25px;
+	  border: solid #1f628d 1px;
+	  text-decoration: none;
+	  transition:all 1s;
+	
+			&:hover {
+			color:#FFF;	
+	  		background: #1f628d;
+			  border: solid #1a4c6d 1px;
+	  		text-decoration: none;
+			}
+	}
+	
+}

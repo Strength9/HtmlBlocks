@@ -9,7 +9,7 @@
 </head>
 <body>
 	<?php include_once("bits/testimonial_piece/testimonial_piece.php");?>
-	
+	<?php include_once("bits/buttons/buttons.php");?>
 		
 </body>
 </html>

@@ -297,6 +297,49 @@ section.gallery .gallery_container > div {
   border-radius: 3px 0 0 3px;
 }
 
+section.cards .cards_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+@media only screen and (min-width: 478px) {
+  section.cards .cards_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 768px) {
+  section.cards .cards_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+section.cards .cards_container > div, section.cards .cards_container > a {
+  aspect-ratio: 1/1;
+  border: 2px solid #FFF;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: all 1s;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1000px inset;
+}
+section.cards .cards_container > div .titlebar, section.cards .cards_container > a .titlebar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFF;
+  color: #000;
+  padding: 20px;
+  transition: all 1s;
+}
+section.cards .cards_container > div:hover, section.cards .cards_container > a:hover {
+  cursor: pointer;
+}
+section.cards .cards_container > div:hover .titlebar, section.cards .cards_container > a:hover .titlebar {
+  background-color: #000;
+  color: #FFF;
+}
+
 /* Testimonials */
 section.fiftyfifty .fiftyfifty_container {
   background-color: red;
@@ -411,4 +454,24 @@ section.fiftyfifty .fiftyfifty_container .textblock {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath fill='%23ffd600' d='M288.1 0l86.5 164 182.7 31.6L428 328.5 454.4 512 288.1 430.2 121.7 512l26.4-183.5L18.9 195.6 201.5 164 288.1 0z'/%3E%3C/svg%3E");
+}
+
+.temp_button {
+  margin: 100px;
+}
+.temp_button .btn {
+  font-family: Arial;
+  border-radius: 0px;
+  color: #1f628d;
+  font-size: 16px;
+  padding: 12px 25px 12px 25px;
+  border: solid #1f628d 1px;
+  text-decoration: none;
+  transition: all 1s;
+}
+.temp_button .btn:hover {
+  color: #FFF;
+  background: #1f628d;
+  border: solid #1a4c6d 1px;
+  text-decoration: none;
 }

@@ -8,6 +8,7 @@
 	<title>Test Page</title>
 </head>
 <body>
+		<?php include_once("blocks/Cards/Cards.php");?>
 		<?php include_once("blocks/Fifty Fifty/fiftyfifty.php");?>
 		<?php include_once("blocks/Gallery/Gallery.php");?>
 		<?php include_once("blocks/CalltoAction/call_to_action.php");?>
