@@ -16,7 +16,7 @@ section > div {
   max-width: 1300px;
 }
 section:first-child {
-  background-color: blueviolet;
+  background-color: #FFF;
 }
 section:nth-child(2) {
   background-color: #000;
