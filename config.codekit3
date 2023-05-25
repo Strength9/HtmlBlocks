@@ -98,6 +98,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/bits\/testimonial_piece\/_testimonial_piece.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/bits\/testimonial_piece\/_testimonial_piece.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/bits\/testimonial_piece\/testimonial_piece.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/bits\/testimonial_piece\/testimonial_piece.php",
+      "oF" : 0
+    },
     "\/blocks\/CalltoAction\/_call_to_action.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -219,6 +242,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/index.php",
+      "oF" : 0
+    },
+    "\/Pieces.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Pieces.php",
       "oF" : 0
     },
     "\/scss" : {

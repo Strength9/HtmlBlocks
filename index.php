@@ -8,8 +8,8 @@
 	<title>Test Page</title>
 </head>
 <body>
-	<?php include_once("blocks/Fifty Fifty/fiftyfifty.php");?>
-	<?php include_once("blocks/Gallery/Gallery.php");?>
+		<?php include_once("blocks/Fifty Fifty/fiftyfifty.php");?>
+		<?php include_once("blocks/Gallery/Gallery.php");?>
 		<?php include_once("blocks/CalltoAction/call_to_action.php");?>
 		<?php include_once("blocks/Text Intro and Three Cells/textintrocells.php");?>
 		<?php include_once("blocks/Map Strip/MapStrip.php");?>
