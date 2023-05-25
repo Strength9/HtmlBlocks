@@ -1,0 +1,3 @@
+<section class="mapstrip" style="background-image:url();">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.0155510492473!2d-117.10929684907664!3d33.55297228065019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db7e990dcf4867%3A0xac2c6283b389b50f!2sGranite%20Creek%20Pools%20and%20Spas!5e0!3m2!1sen!2seg!4v1680142014397!5m2!1sen!2seg" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
