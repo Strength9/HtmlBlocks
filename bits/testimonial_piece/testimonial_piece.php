@@ -9,7 +9,7 @@
 	
 		<div class="person">
 	  		<div class="image">
-				  <div class="p_image" style="background-image:url(assets/images/img2.jpg)"></div>
+				  <div class="p_image purp" style="">DP</div>
 			</div>
 	  		<div class="pname">Dave Pratt</div>
 	  		<div class="pstars">

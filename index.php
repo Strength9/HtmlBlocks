@@ -10,10 +10,12 @@
 <body>
 	<section>
 		<h1>Pieces</h1>
+		<?php include_once("bits/custom i tag/itags.php");?>
 		<?php include_once("bits/testimonial_piece/testimonial_piece.php");?>
 		<?php include_once("bits/buttons/buttons.php");?>
 	</section>	
 		<h1>Blocks</h1>
+		<?php include_once("blocks/Hero/hero.php");?>
 		<?php include_once("blocks/Cards/Cards.php");?>
 		<?php include_once("blocks/Fifty Fifty/fiftyfifty.php");?>
 		<?php include_once("blocks/Gallery/Gallery.php");?>

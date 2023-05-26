@@ -9,6 +9,10 @@
       "name" : "Background Positions"
     },
     {
+      "content" : ".container {  \n\t\tdisplay: grid;\n\t\tgrid-template-columns: repeat(2, 1fr);\n\t\tgrid-template-rows: 1fr;\n\t\tgap: 0px 0px;\n\t\tgrid-auto-flow: row;\n\t\tgrid-template-areas: \"a b\";\n\n\t\t.a { grid-area: a; }\n\t\t\n\t\t.b { grid-area: b; }\n\n}",
+      "name" : "Grid"
+    },
+    {
       "content" : "box-shadow: rgba(0,0,0,0.6) 0 0 0 1000px inset;",
       "name" : "Overlay"
     }

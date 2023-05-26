@@ -121,6 +121,29 @@
       "oAP" : "\/bits\/buttons\/buttons.php",
       "oF" : 0
     },
+    "\/bits\/custom i tag\/_itags.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/bits\/custom i tag\/_itags.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/bits\/custom i tag\/itags.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/bits\/custom i tag\/itags.php",
+      "oF" : 0
+    },
     "\/bits\/testimonial_piece\/_testimonial_piece.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -234,6 +257,29 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/blocks\/Gallery\/Gallery.php",
+      "oF" : 0
+    },
+    "\/blocks\/Hero\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/blocks\/Hero\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/blocks\/Hero\/hero.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/Hero\/hero.php",
       "oF" : 0
     },
     "\/blocks\/Map Strip\/_mapstrip.scss" : {
