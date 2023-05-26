@@ -1,6 +1,6 @@
 <div class="testimonial_temp_holder">
 	<!--- Use Below Text -->
-	<div class="testimonial">
+	<div class="testimonial_data">
 		<span class="symb"></span>
 		<blockquote>
 			<strong>Testimonial Piece</strong><br>

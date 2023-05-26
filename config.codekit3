@@ -228,12 +228,12 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/blocks\/Gallery\/gallery.php" : {
+    "\/blocks\/Gallery\/Gallery.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/blocks\/Gallery\/gallery.php",
+      "oAP" : "\/blocks\/Gallery\/Gallery.php",
       "oF" : 0
     },
     "\/blocks\/Map Strip\/_mapstrip.scss" : {
@@ -288,14 +288,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/index.php",
-      "oF" : 0
-    },
-    "\/Pieces.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Pieces.php",
       "oF" : 0
     },
     "\/scss" : {
