@@ -1,0 +1,56 @@
+/* Testimonials */
+section.textintrocells .textintrocells_container {
+  display: grid;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(20px, auto) minmax(20px, auto) minmax(20px, auto) minmax(20px, auto);
+  grid-template-areas: "introarea" "cell_one" "cell_two" "cell_three";
+}
+@media only screen and (min-width: 500px) {
+  section.textintrocells .textintrocells_container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(20px, auto) minmax(20px, auto) minmax(20px, auto);
+    grid-template-areas: "introarea introarea" "cell_one cell_two" "cell_three cell_three";
+  }
+}
+@media only screen and (min-width: 1000px) {
+  section.textintrocells .textintrocells_container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(20px, auto) minmax(20px, auto);
+    grid-template-areas: "introarea introarea introarea" "cell_one cell_two cell_three";
+  }
+}
+section.textintrocells .textintrocells_container .introarea {
+  grid-area: introarea;
+  background-color: palevioletred;
+}
+section.textintrocells .textintrocells_container .cell_one {
+  grid-area: cell_one;
+  background-color: palegoldenrod;
+}
+section.textintrocells .textintrocells_container .cell_two {
+  grid-area: cell_two;
+  background-color: paleturquoise;
+}
+section.textintrocells .textintrocells_container .cell_three {
+  grid-area: cell_three;
+  background-color: palegreen;
+}
+section.textintrocells .textintrocells_container .cell_one, section.textintrocells .textintrocells_container .cell_two, section.textintrocells .textintrocells_container .cell_three {
+  padding: 20px 20px 20px 0;
+  color: #FFF;
+}
+section.textintrocells .textintrocells_container .cell_one blockquote, section.textintrocells .textintrocells_container .cell_two blockquote, section.textintrocells .textintrocells_container .cell_three blockquote {
+  margin: 0;
+  padding: 0;
+}
+section.textintrocells .textintrocells_container .cell_one p, section.textintrocells .textintrocells_container .cell_two p, section.textintrocells .textintrocells_container .cell_three p {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+section.textintrocells .textintrocells_container .cell_one p small, section.textintrocells .textintrocells_container .cell_two p small, section.textintrocells .textintrocells_container .cell_three p small {
+  display: block;
+}

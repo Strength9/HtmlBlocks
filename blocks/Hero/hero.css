@@ -1,0 +1,27 @@
+/* Hero */
+section.hero .hero_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(50px, auto);
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "a b";
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darkblue;
+}
+section.hero .hero_container .left {
+  grid-area: a;
+  background-color: tan;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.hero .hero_container .right {
+  grid-area: b;
+  background-color: dodgerblue;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,42 @@
+section.cards .cards_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+@media only screen and (min-width: 478px) {
+  section.cards .cards_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 768px) {
+  section.cards .cards_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+section.cards .cards_container > div, section.cards .cards_container > a {
+  aspect-ratio: 1/1;
+  border: 2px solid #FFF;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transition: all 1s;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1000px inset;
+}
+section.cards .cards_container > div .titlebar, section.cards .cards_container > a .titlebar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFF;
+  color: #000;
+  padding: 20px;
+  transition: all 1s;
+}
+section.cards .cards_container > div:hover, section.cards .cards_container > a:hover {
+  cursor: pointer;
+}
+section.cards .cards_container > div:hover .titlebar, section.cards .cards_container > a:hover .titlebar {
+  background-color: #000;
+  color: #FFF;
+}

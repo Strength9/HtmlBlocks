@@ -121,21 +121,6 @@
       "oAP" : "\/bits\/buttons\/buttons.php",
       "oF" : 0
     },
-    "\/bits\/custom i tag\/_itags.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/bits\/custom i tag\/_itags.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/bits\/custom i tag\/itags.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -144,7 +129,7 @@
       "oAP" : "\/bits\/custom i tag\/itags.php",
       "oF" : 0
     },
-    "\/bits\/testimonial_piece\/_testimonial_piece.scss" : {
+    "\/bits\/custom i tag\/itags.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -153,11 +138,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/bits\/testimonial_piece\/_testimonial_piece.css",
+      "oAP" : "\/bits\/custom i tag\/itags.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/bits\/testimonial_piece\/testimonial_piece.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/bits\/testimonial_piece\/testimonial_piece-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/bits\/testimonial_piece\/testimonial_piece.php" : {
       "cB" : 0,
@@ -167,7 +164,7 @@
       "oAP" : "\/bits\/testimonial_piece\/testimonial_piece.php",
       "oF" : 0
     },
-    "\/blocks\/CalltoAction\/_call_to_action.scss" : {
+    "\/bits\/testimonial_piece\/testimonial_piece.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -176,11 +173,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/blocks\/CalltoAction\/_call_to_action.css",
+      "oAP" : "\/bits\/testimonial_piece\/testimonial_piece.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/blocks\/CalltoAction\/call_to_action.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/CalltoAction\/call_to_action-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/blocks\/CalltoAction\/call_to_action.php" : {
       "cB" : 0,
@@ -190,7 +199,7 @@
       "oAP" : "\/blocks\/CalltoAction\/call_to_action.php",
       "oF" : 0
     },
-    "\/blocks\/Cards\/_cards.scss" : {
+    "\/blocks\/CalltoAction\/call_to_action.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -199,11 +208,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/blocks\/Cards\/_cards.css",
+      "oAP" : "\/blocks\/CalltoAction\/call_to_action.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/blocks\/Cards\/cards.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/Cards\/cards-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/blocks\/Cards\/Cards.php" : {
       "cB" : 0,
@@ -213,7 +234,7 @@
       "oAP" : "\/blocks\/Cards\/Cards.php",
       "oF" : 0
     },
-    "\/blocks\/Fifty Fifty\/_fiftyfifty.scss" : {
+    "\/blocks\/Cards\/cards.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -222,11 +243,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/blocks\/Fifty Fifty\/_fiftyfifty.css",
+      "oAP" : "\/blocks\/Cards\/cards.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/blocks\/Fifty Fifty\/fiftyfifty.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/Fifty Fifty\/fiftyfifty-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/blocks\/Fifty Fifty\/fiftyfifty.php" : {
       "cB" : 0,
@@ -236,7 +269,7 @@
       "oAP" : "\/blocks\/Fifty Fifty\/fiftyfifty.php",
       "oF" : 0
     },
-    "\/blocks\/Gallery\/_gallery.scss" : {
+    "\/blocks\/Fifty Fifty\/fiftyfifty.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -245,11 +278,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/blocks\/Gallery\/_gallery.css",
+      "oAP" : "\/blocks\/Fifty Fifty\/fiftyfifty.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/blocks\/Gallery\/gallery.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/Gallery\/gallery-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/blocks\/Gallery\/Gallery.php" : {
       "cB" : 0,
@@ -259,7 +304,7 @@
       "oAP" : "\/blocks\/Gallery\/Gallery.php",
       "oF" : 0
     },
-    "\/blocks\/Hero\/_hero.scss" : {
+    "\/blocks\/Gallery\/gallery.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -268,11 +313,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/blocks\/Hero\/_hero.css",
+      "oAP" : "\/blocks\/Gallery\/gallery.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/blocks\/Hero\/hero.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/Hero\/hero-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/blocks\/Hero\/hero.php" : {
       "cB" : 0,
@@ -282,7 +339,7 @@
       "oAP" : "\/blocks\/Hero\/hero.php",
       "oF" : 0
     },
-    "\/blocks\/Map Strip\/_mapstrip.scss" : {
+    "\/blocks\/Hero\/hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -291,11 +348,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/blocks\/Map Strip\/_mapstrip.css",
+      "oAP" : "\/blocks\/Hero\/hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/blocks\/Map Strip\/mapstrip.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/Map Strip\/mapstrip-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/blocks\/Map Strip\/MapStrip.php" : {
       "cB" : 0,
@@ -305,7 +374,7 @@
       "oAP" : "\/blocks\/Map Strip\/MapStrip.php",
       "oF" : 0
     },
-    "\/blocks\/Text Intro and Three Cells\/_textintrocells.scss" : {
+    "\/blocks\/Map Strip\/mapstrip.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -314,11 +383,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/blocks\/Text Intro and Three Cells\/_textintrocells.css",
+      "oAP" : "\/blocks\/Map Strip\/mapstrip.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/blocks\/Text Intro and Three Cells\/textintrocells.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/blocks\/Text Intro and Three Cells\/textintrocells-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/blocks\/Text Intro and Three Cells\/textintrocells.php" : {
       "cB" : 0,
@@ -327,6 +408,21 @@
       "oA" : 0,
       "oAP" : "\/blocks\/Text Intro and Three Cells\/textintrocells.php",
       "oF" : 0
+    },
+    "\/blocks\/Text Intro and Three Cells\/textintrocells.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/blocks\/Text Intro and Three Cells\/textintrocells.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/index.php" : {
       "cB" : 0,

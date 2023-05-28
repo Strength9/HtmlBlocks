@@ -1,0 +1,40 @@
+/* Fifty Fifty */
+section.fiftyfifty .fiftyfifty_container {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(20px, auto) minmax(20px, auto);
+  gap: 30px 30px;
+  grid-auto-flow: row;
+  grid-template-areas: "imageblock" "textblock";
+}
+section.fiftyfifty .fiftyfifty_container.rev {
+  grid-template-areas: "textblock" "imageblock";
+}
+@media only screen and (min-width: 700px) {
+  section.fiftyfifty .fiftyfifty_container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(20px, auto);
+    grid-template-areas: "imageblock textblock";
+  }
+  section.fiftyfifty .fiftyfifty_container.rev {
+    grid-template-areas: "imageblock textblock";
+  }
+  section.fiftyfifty .fiftyfifty_container.ti {
+    grid-template-areas: "textblock imageblock";
+  }
+}
+section.fiftyfifty .fiftyfifty_container .imageblock {
+  grid-area: imageblock;
+  background-color: yellow;
+  text-align: center;
+}
+section.fiftyfifty .fiftyfifty_container .imageblock img {
+  margin: auto;
+  height: auto;
+  width: 90%;
+}
+section.fiftyfifty .fiftyfifty_container .textblock {
+  grid-area: textblock;
+  background-color: yellow;
+}
