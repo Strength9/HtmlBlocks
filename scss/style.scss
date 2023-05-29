@@ -6,7 +6,7 @@ body {
 	padding: 0px !important;
 }
 section {
-	padding:100px 20px;
+	padding:100px 20px; 
 	
 	> div {
 		margin:0 auto;
@@ -15,16 +15,20 @@ section {
 	}
 	
 	&:first-child { background-color: #FFF; }
-	&:nth-child(2) { background-color: #000;}
-	&:nth-child(3) {background-color: blueviolet; }
-	&:nth-child(4) { background-color: #000;}
-	&:nth-child(5)  {background-color: blueviolet; }
-	&:nth-child(6) { background-color: #000;}
-	&:nth-child(7)  {background-color: blueviolet; }
-	&:nth-child(8) { background-color: #000;}
-	&:nth-child(9)  {background-color: blueviolet; }
+	&:nth-child(2) { background-color: #FFF;}
+	&:nth-child(3) { background-color: #000;}
+	&:nth-child(4) {background-color: blueviolet; }
+	&:nth-child(5) { background-color: #000;}
+	&:nth-child(6)  {background-color: blueviolet; }
+	&:nth-child(7) { background-color: #000;}
+	&:nth-child(8)  {background-color: blueviolet; }
+	&:nth-child(9) { background-color: #000;}
+	&:nth-child(10)  {background-color: blueviolet; }
 }
-
+ 
+  
+//  @import '../bits/base/base';
+  
   
 @import '../blocks/CalltoAction/call_to_action';
 @import '../blocks/Text Intro and Three Cells/textintrocells';
@@ -35,7 +39,9 @@ section {
 @import '../blocks/Fifty Fifty/fiftyfifty';
 @import '../blocks/Hero/hero';
 
+@import '../blocks/Hero/hero-form';
+
 @import '../bits/custom i tag/itags';
 @import '../bits/testimonial_piece/testimonial_piece';
-@import '../bits/buttons/buttons';
+@import '../bits/buttons/buttons.scss';
  

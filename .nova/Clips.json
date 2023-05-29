@@ -15,6 +15,10 @@
     {
       "content" : "box-shadow: rgba(0,0,0,0.6) 0 0 0 1000px inset;",
       "name" : "Overlay"
+    },
+    {
+      "content" : "@media only screen and (min-width: ${:Pixel}px) {\n\t\n}",
+      "name" : "Media Query"
     }
   ]
 }

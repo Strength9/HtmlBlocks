@@ -1,0 +1,44 @@
+.temp_button {
+  margin: 100px 0px;
+}
+.temp_button > div {
+  max-width: 100% !important;
+  margin: 30px 0;
+}
+.temp_button .btn {
+  font-family: Arial;
+  border-radius: 0px;
+  color: #1f628d;
+  font-size: 16px;
+  padding: 12px 25px 12px 25px;
+  border: solid #1f628d 1px;
+  text-decoration: none;
+  transition: all 1s;
+  display: inline-block;
+}
+.temp_button .btn:hover {
+  color: #FFF;
+  background: #1f628d;
+  border: solid #1a4c6d 1px;
+  text-decoration: none;
+}
+.temp_button .btn_family {
+  max-width: 100%;
+  background-color: pink;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.temp_button .btn_family li {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 0 5px;
+  border-right: 3px solid #000;
+}
+.temp_button .btn_family li:first-child {
+  padding-right: 30px;
+}
+.temp_button .btn_family li:last-child {
+  padding-left: 30px;
+  border-right: 0px solid #000;
+}
